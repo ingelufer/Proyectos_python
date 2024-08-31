@@ -1,0 +1,34 @@
+#instalacion activacion
+#python -m venv virtual1  (crea el entorno virtual una carpeta virtual1)
+#virtual1/Scripts/activate  ( activa el entorno virtual)
+
+#se crea un archivo txt  a nivel de main  que contenga todas las librerias cuando se comparta el proyecto sepa que se tiene que instalar
+# se actualiza pip (python.exe -m pip install --upgrade pip)
+# pip install flask   se instala flask 
+# pip freeze( veo las librerias instaladas(blinker==1.8.2, click==8.1.7, colorama==0.4.6, Flask==3.0.3, Flask==3.0.3, itsdangerous==2.2.0, Jinja2==3.1.4, MarkupSafe==2.1.5, Werkzeug==3.0.3 ))
+# pip freezee > requeriments.txt  copio los nombres de las librerias cosnultadas y las paso al txt 
+
+blinker==1.8.2
+click==8.1.7
+colorama==0.4.6
+dominate==2.9.1
+Flask==3.0.3
+Flask-Bootstrap==3.3.7.1
+Flask-Testing==0.8.1
+Flask-WTF==1.2.1
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+visitor==0.1.3
+Werkzeug==3.0.3
+WTForms==3.1.2
+
+
+
+
+
+
+
+
+
+
